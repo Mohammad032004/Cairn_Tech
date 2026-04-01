@@ -65,7 +65,7 @@ export default function AdminLoginPage() {
               {loading?<><Loader2 size={16} style={{animation:"spin 1s linear infinite"}}/>Signing in...</>:"Sign In to Dashboard"}
             </button>
           </form>
-          <p style={{textAlign:"center",fontSize:"0.75rem",color:"#3A2850",marginTop:"1.25rem"}}>Default: admin / admin123</p>
+          <p style={{textAlign:"center",fontSize:"0.75rem",color:"#3A2850",marginTop:"1.25rem"}}></p>
         </div>
       </motion.div>
       <style>{`@keyframes spin{to{transform:rotate(360deg)}}`}</style>
