@@ -135,7 +135,7 @@ export default function ContactPage() {
 
               <div style={{...card,padding:"1.75rem"}}>
                 <h3 className="font-heading" style={{fontSize:"1.1rem",fontWeight:700,color:"var(--txt-primary)",marginBottom:"1.25rem"}}>Follow Us</h3>
-                {[{Icon:AtSign,label:"Instagram",handle:"@cairntech",href:"#"},{Icon:LI,label:"LinkedIn",handle:"Cairn Tech",href:"#"},{Icon:Share2,label:"Facebook",handle:"CairnTech",href:"#"}].map(({Icon,label,handle,href})=>(
+                {[{Icon:AtSign,label:"Instagram",handle:"@cairntech",href:"https://www.instagram.com/carin_tech/"},{Icon:LI,label:"LinkedIn",handle:"Cairn Tech",href:"#"},{Icon:Share2,label:"Facebook",handle:"CairnTech",href:"#"}].map(({Icon,label,handle,href})=>(
                   <a key={label} href={href} style={{display:"flex",alignItems:"center",gap:12,padding:"10px 12px",borderRadius:12,textDecoration:"none",marginBottom:4,transition:"background 0.15s"}}
                     onMouseEnter={e=>{(e.currentTarget as HTMLElement).style.background="var(--surface-2)"}}
                     onMouseLeave={e=>{(e.currentTarget as HTMLElement).style.background="transparent"}}>
