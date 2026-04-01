@@ -16,8 +16,8 @@ http://localhost:3000/api/admin/auto-setup
 ## Admin Login
 ```
 URL:      /admin/login
-Username: admin
-Password: admin123
+Username: xxxx
+Password: xxxx
 ```
 
 ---
@@ -40,8 +40,8 @@ git push -u origin main
 
 | Variable | Value |
 |----------|-------|
-| `MONGODB_URI` | `mongodb+srv://Cairn_db_user:RLjgefo3QMWigyEW@carin-tech.oq7jwgg.mongodb.net/cairntech?retryWrites=true&w=majority&appName=Carin-Tech` |
-| `JWT_SECRET` | `cairntech_ultra_secret_jwt_key_2024_production` |
+| `MONGODB_URI` | `` |
+| `JWT_SECRET` | `` |
 
 4. Click **Deploy**
 
